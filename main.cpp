@@ -54,5 +54,12 @@ vector<pair<long long, long long> > prime_factorize(long long n) {
 }
 
 
-int main() {
+int main() {	
+	
+	// 標準入力が早くなる。Cスタイルの入出力とC++スタイルの入出力を混合させてはならない。
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
+	
+	// 小数点表記で出力したいときに使う。
+	cout << std::fixed << std::setprecision(15);
 }

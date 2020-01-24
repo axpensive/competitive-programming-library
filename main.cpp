@@ -20,12 +20,9 @@ using pll = pair<long long, long long>;
 // 最大公約数
 long long gcd(long long a, long long b)
 {
-	if (a % b == 0)
-	{
+	if (a % b == 0) {
 		return(b);
-	}
-	else
-	{
+	} else {
 		return(gcd(b, a % b));
 	}
 }

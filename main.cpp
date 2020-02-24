@@ -14,7 +14,7 @@ template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return true
 template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return true; } return false; }
 const long long INF = 1LL << 60;
 using pll = pair<long long, long long>;
-#define min(a, b) ((a) < (b) ? (a) : (b))
+#define rep(i,n) for (int i = 0; i < (n); ++i)
 
 
 // 最大公約数
